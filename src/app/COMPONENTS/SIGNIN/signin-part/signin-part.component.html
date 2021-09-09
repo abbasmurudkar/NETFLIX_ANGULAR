@@ -1,0 +1,44 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<div class="signin-content">
+    <div class="content">
+        <img src="../../../../assets/IMAGES/BACKGROUND.jpeg" alt="">
+    </div>
+    <div class="main-content">
+        <div class="form">
+            <h1>Sign In</h1>
+            <div class="email-password">
+                <input type="text" placeholder="Email or phone number"><br><br>
+                <div class="pass">
+                    <input [type]="passwordtype" #input placeholder="Password">
+                    <button (click)="tooglepass(input)" (click)="hide=!hide" style="cursor: pointer;">
+                        <mat-icon>{{hide ?'visibility':'visibility_off'}}</mat-icon>
+                    </button>
+                </div>
+            </div>
+           
+            <button id="btn" [routerLink]="['./netflix-page']">Sign in</button>
+            <br><br>
+            <div Style="font-size:13px; font-weight: 500;">
+                <input type="checkbox" id="remember"> <label for="remember" style="cursor: pointer;">&nbsp;Remember
+                    me</label>
+                <span>Need help?</span>
+                <br><br><br><br><br>
+                <div id="para" style="cursor: pointer;">
+                    <a href="https://www.facebook.com"><img src="../../../../assets/IMAGES/facebook.png" alt="">
+                    &nbsp;Login with facebook</a>
+                    <br><br>
+                    <p>New to netflix? <span>Sign up now</span></p><br>
+                    <p id="para3">This page is protected by Google reCAPTCHA to ensure you're not a bot.<a style="color: blue;" href="localhost:4200"> Learn more.</a></p>
+                </div>
+
+            </div>
+        </div>
+        <div class="transparent">
+        </div>
+    </div>
+    <div class="logo">
+        <img src="../../../../assets/netflix1.png" alt="">
+    </div>
+    <app-contactus2></app-contactus2>
+</div>

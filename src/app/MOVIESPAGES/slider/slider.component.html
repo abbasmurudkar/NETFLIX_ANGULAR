@@ -1,0 +1,19 @@
+<h2>{{title}}</h2>
+<div class="movie">
+    <div class="movie__images">
+        <div class="thumbnails">
+            <div style="position: absolute; z-index: 30;" class="d-flex justify-content-center">
+<button mat-icon-button (click)="owlcar.prev()" id="left"><mat-icon>arrow_left</mat-icon></button>
+<button mat-icon-button (click)="owlcar.next()" id="right"><mat-icon>arrow_right</mat-icon></button>
+
+            </div>
+            <owl-carousel-o  [options]="customOptions" #owlcar>
+                <ng-container class="owl-item" *ngFor="let m of movies.results " id="owl">
+                    <ng-template carouselSlide id="carousel" >
+                        <img id="img"src="https://image.tmdb.org/t/p/w200/{{m?.poster_path}}" alt="{{m.title}}" [routerLink]="['./video']">
+                    </ng-template>
+                </ng-container>
+            </owl-carousel-o>
+        </div>
+    </div>
+</div>

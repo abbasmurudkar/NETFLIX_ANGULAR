@@ -1,0 +1,67 @@
+
+.contact-content{
+//    border: 2px solid red;
+   height: 400px;
+   border-top:8px solid rgb(58, 57, 57);
+   display: flex;
+   justify-content: center;
+   line-height: 1;
+   background: black;
+}
+.contact-page{
+    width: 60%;
+    font-size: 16px;
+    padding: 50px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.contact-items{
+    // border: 2px solid red;
+    height: 150px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    color: #757575;
+    // border: 2px solid;
+    width: 200px;
+}
+.box1 li,.box1 li a{
+    text-decoration: none;
+    list-style: none;
+    color: #757575;
+    font-weight: 300;
+    // font-size: 13px;
+}
+.box1 li a:hover{
+text-decoration: underline;
+}
+.box1 ul{
+    padding: 0px;
+    line-height: 2.1;
+    font-size: 14px;
+}
+#material1{
+    color: #757575;
+    position: relative;
+    top: 8px;
+    left:25px;
+}
+.signin select{
+width: 140px;
+height: 65px;
+color:#757575;
+border: 0.5px solid #757575;
+}
+ #para2{
+    color: #757575;
+    position: relative;
+    left: 25px;
+    font-size: 13px;
+}
+.contact-page a:hover
+{
+    color: #757575;
+}

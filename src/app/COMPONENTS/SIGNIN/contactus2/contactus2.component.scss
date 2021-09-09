@@ -1,0 +1,44 @@
+
+*{
+    background: black;
+
+}
+.conatct-content{
+    margin-top: 0px;
+}
+#material1{
+    position: relative;
+    top: 4px;
+    font-size: 25px;
+}
+.signin select{
+width: 140px;
+height: 65px;
+color:#757575;
+border: 0.5px solid #757575;
+}
+
+.contact-content{
+    //    border: 2px solid red;
+       height: 300px;
+       display: flex;
+       justify-content: center;
+       opacity: 0.6;
+    }
+.contact-page{
+        width: 60%;
+        font-size: 16px;
+        padding: 50px;
+        padding-left: 10px;
+}
+.contact-items{
+        // border: 2px solid red;
+        height: 100px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+}
+.contact-page a:hover
+{
+    color: #757575;
+}

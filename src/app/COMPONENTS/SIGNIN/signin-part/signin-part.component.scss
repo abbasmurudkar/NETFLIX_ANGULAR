@@ -1,0 +1,123 @@
+
+.signin-content{
+width: 100%;
+position: relative;
+height: 800px;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    height: 800px;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    opacity: 0.4;
+}
+.content img{
+    width: 100%;
+    height: 1095px;
+}
+.transparent{
+    color: white;
+    background-color: black;
+    height: 630px;
+    width: 435px;
+    opacity: 0.7;
+    position: absolute;
+}
+.form{
+    color: white;
+    opacity: 10000;
+    z-index: 1;
+    height: 630px;
+    width: 470px;
+    padding: 85px;
+    line-height: 1;
+}
+.logo{
+    height: 45px;
+    width: 167px;
+}
+.email-password input{
+    width: 300px;
+    height: 48px;
+    padding-left: 15px;
+    border-radius: 4px;
+background-color: #333;
+outline: none;
+border: 0;
+color: white;
+}
+.email-password input::placeholder{
+        color: #8c8c8c;
+        font-size: 16px;
+}
+.email-password input:focus{
+    color: white;
+}
+.email-password button{
+    position: relative;
+    left: 270px;
+    height: 30px;
+    top: -39px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+.main-content #btn{
+    width: 300px;
+    min-height: 48px;
+    background-color: #e50914;
+    border: none;
+    font-size: 16px;
+    color: white;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 18px 0 12px;
+}
+.main-content span{
+    position: relative;
+    left: 120px;
+    cursor: pointer;
+}
+.main-content span:hover{
+    text-decoration: underline;
+}
+.form img{
+    height: 20px;
+    width: 20px;
+    text-decoration: none;
+}
+#para span{
+    left: 0;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+#para{
+    font-size: 16px;
+}
+#para3{
+    font-size: 13px;
+    color: #8c8c8c;
+    font-weight: 300;
+}
+#link{
+    color: blue;
+}
+#para a{
+    text-decoration: none;
+    color:#737373;
+    font-size: 13px;
+}
+.form h1{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}

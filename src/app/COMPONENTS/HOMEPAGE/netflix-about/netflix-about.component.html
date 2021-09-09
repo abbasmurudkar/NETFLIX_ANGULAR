@@ -1,0 +1,31 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<link rel="stylesheet" href="">
+<div class="content1">
+    <h1>Frequently Asked Questions</h1>
+    <div class="boxes">
+        <div *ngFor="let item of myarray;index as i">
+            <div class="box" (click)="handleclick(i)" >
+
+                <p id="para">
+                    {{item.name}}
+                </p>
+
+            <mat-icon id="plus" [ngClass]="activemeter==i?'r1':'r0'" >add</mat-icon>
+            </div>
+            <div class="hide" *ngIf="activemeter == i">
+                <div class="hide2" [innerHTML]="item.text"></div>
+            </div>
+        </div>
+        <div class="mail-part">
+            <p id="para1">Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="email">
+
+
+                <input type="email" placeholder="Email address">
+                <button [routerLink]="['./form']">Get started<span class="material-icons" id="material1">chevron_right
+                    </span></button>
+            </div>
+        </div>
+    </div>
+</div>

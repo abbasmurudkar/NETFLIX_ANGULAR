@@ -1,0 +1,60 @@
+h2 {
+    font-size: x-large;
+    color: white;
+  }
+  
+  img {
+    border-radius: 5px;
+  }
+  
+  .movie {
+    margin: 20px 0;
+  }
+  .owl-carousel .owl-item img{
+    // display: block;
+  }
+  .owl-item:hover img{
+    // transform: scale(1.02);
+    // cursor: pointer;
+  }
+  .owl-item img {
+    // transition: all 0.3s ease;
+    // height: 301px;
+    // padding: 0;
+  }
+  div.thumbnails .carousel {
+    width:100%;
+    display: flex;
+  }
+  #left{
+    position: absolute;
+    top: 120px;
+    border-radius: 40%;
+    border: transparent;
+    cursor: pointer;
+      }
+  #right{
+    position: relative;
+    top: 120px;
+    left: 1360px;
+    border-radius: 40%;
+    border: transparent;
+    outline: none;
+    cursor: pointer;
+}
+#left .mat-icon,#right .mat-icon{
+  font-size: 40px;
+  width: 40px;
+  height: 40px;
+}
+ button{
+font-size: 20px;
+}
+#img{
+  transition: 0.3s all ease-in;
+  cursor: pointer;
+  padding: 5px;
+}
+#img:hover{
+  transform: scale(1.04);
+}

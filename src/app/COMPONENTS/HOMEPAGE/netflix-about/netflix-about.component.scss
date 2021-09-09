@@ -1,0 +1,115 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;  
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif; 
+}
+.box{
+    height: 70px;
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 20px;
+    width: 800px;
+    justify-content: space-between;
+}
+.box p{
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+}
+.boxes{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.content1{
+    border-top: 8px solid #3a3939;
+    display: block;
+    position: relative;
+background-color: black;
+}
+.content1 h1{
+    color: white;
+    text-align: center;
+    position: relative;
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 2.5rem;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.hide{
+    color: white;
+    background-color: #303030;
+    padding: 2.2em;
+    width: 800px;
+    position: relative;
+    left: 5px;
+    margin-bottom: 8px;
+    line-height: 1;
+    top: -3px;
+    transition: 0.4s all ease-in-out;
+    animation-name:popup;
+    animation-iteration-count: 1;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+.hide2{
+    font-size: 1.625rem;
+    word-spacing: 3px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+#para{
+    position: relative;
+    font-size: 1.825em;
+    left: 10px;
+}
+
+.mail-part{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 58px;
+    height: 213px;
+    margin-bottom: 25px;
+}
+#para1 {
+    color: white;
+    font-size: 1.2rem;
+    position: relative;
+    font-size: 1.2rem;
+}
+
+#plus
+{
+    position: relative;
+    top: -10px;
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    right: 10px;
+}
+.r0{
+    transform: rotate(0deg);
+    transition: 0.3s all ease-in;
+}
+.r1{
+    transform: rotate(-45deg);
+    transition: 0.3s all ease-in;
+}
+
+
+
+
+
+

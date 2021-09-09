@@ -1,0 +1,70 @@
+<div class="container">
+    <div class="header">
+        <!-- BANNER AREA -->
+        <div class="header__banner"  [ngStyle]="{
+            'background-image':'linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.3)), url('+headerBGurl+')'
+        }">
+            <h2>{{trending?.results[7].title}}</h2>
+            <div class="header__buttons" >
+                <button class="play-button" [routerLink]="['./video']">
+                    <mat-icon>arrow_right</mat-icon>
+                    <span id="btn1">play</span>
+                </button>
+
+                <button class="more-button">
+                    <mat-icon>info</mat-icon>
+                    <span id="btn2">More Info</span>
+                </button>
+            </div>
+        </div>
+        <!-- BANNER ENDS -->
+
+        <!-- MAIN AREA -->
+
+        <div class="header__main" id="stickyHeader" [class.sticky]="sticky" #stickHeader>
+            <div class="header__left">
+                <img id="source" src="../../../assets/IMAGES/netflix1.png">
+
+                <ul>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Tv Shows</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">Latest</a></li>
+                    <li><a href="#">My List</a></li>
+
+                </ul>
+            </div>
+            <div class="header__right">
+                <ul>
+                <li><a href="#">
+                        <mat-icon>search</mat-icon>
+                    </a></li>
+                <li><a href="#">
+                        Children
+                    </a></li>
+                <li><a href="#">
+                        <mat-icon>card_giftcard</mat-icon>
+                    </a></li>
+                <li><a href="#">
+                        <mat-icon>notifications</mat-icon>
+                    </a></li>
+                <li><a href="#">
+<img style="width: 45px;"src="../../../assets/IMAGES/image.png" alt="">
+                    </a></li>
+                </ul>
+            </div>
+
+        </div>
+        <!-- header main ends -->
+    </div>
+    <div class="body" style="margin-top: 27rem;">
+        <app-slider title="TRENDING" [movies]="trending"></app-slider>
+        <app-slider title="TOP RATED" [movies]="topRated"></app-slider>
+        <app-slider title="POPULAR" [movies]="popular"></app-slider>
+        <app-slider title="BEST MOVIES" [movies]="nowplaying"></app-slider>
+        <app-slider title="ORIGINALS" [movies]="original"></app-slider>
+        <app-slider  title="ADVENTURE" [movies]="trending"></app-slider>
+
+    </div>
+
+</div>
