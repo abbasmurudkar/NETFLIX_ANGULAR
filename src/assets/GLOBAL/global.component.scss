@@ -1,0 +1,85 @@
+.email input{
+    width: 480px;
+    height: 60px;
+    padding: 2px 15px;
+    border-radius: 2px;
+}
+.email button{
+    width: 200px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    font-size: 1.625rem;
+    position: relative;
+    top: 4px;
+    border: 2px solid red;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.email button:hover{
+    background-color: rgb(245, 3, 3);
+}
+.email input::placeholder{
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+.signin  select {
+    width: 106px;
+    height: 34px;
+    background-color: black;
+    color: white;
+    font-size: .875rem;
+    border: 1px solid white;
+    font-weight: 400;
+    border-radius: 2px;
+    padding: 0px 19px;
+    padding-bottom: 1px;
+}
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    width: 135px;
+    height: 60px;
+}
+.logo img{
+    width: 100%;
+    position: relative;
+    top: -44px;
+    opacity: 5;
+}
+
+#material1{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    top: 18px;
+}
+
+//
+
+   
+    .footer-top-a,p{
+        color: #757575;
+    }
+  
+    .box1{
+        color: #757575;
+        // border: 2px solid;
+        width: 200px;
+    }
+    .box1 li,.box1 li a{
+        text-decoration: none;
+        list-style: none;
+        color: #757575;
+        font-weight: 300;
+        // font-size: 13px;
+    }
+    .box1 li a:hover{
+    text-decoration: underline;
+    }
+    .box1 ul{
+        padding: 0px;
+        line-height: 2.1;
+        font-size: 14px;
+    }
