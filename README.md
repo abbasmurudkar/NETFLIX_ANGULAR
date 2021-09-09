@@ -64,7 +64,7 @@ Get started with Angular, learn the fundamentals and explore advanced topics on 
 
 Install the Angular CLI globally:
 
-
+```
 npm install -g @angular/cli
 ```
 
