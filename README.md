@@ -72,7 +72,7 @@ Create workspace:
 
 
 ng new [PROJECT NAME]
-```
+
 
 Run the application:
 
